@@ -3,6 +3,7 @@ package com.fut5appv2.app.menu.impl;
 import com.fut5appv2.app.inputOutput.impl.InputScannerImpl;
 import com.fut5appv2.app.menu.MenuInterface;
 import com.fut5appv2.app.menu.Retornar;
+import com.fut5appv2.app.service.busqueda.impl.BuscarEquipoImpl;
 import com.fut5appv2.app.service.busqueda.impl.BuscarJugadorImpl;
 import com.fut5appv2.app.service.equipo.impl.EquipoServiceImpl;
 import com.fut5appv2.app.service.execution.impl.EjecucionImpl;
@@ -24,8 +25,7 @@ public class MenuServiceImpl implements MenuInterface{
 				+ "\t2- MOSTRAR EQUIPOS\n"
 				+ "\t3- AGREGAR JUGADORES\n"
 				+ "\t4- AGREGAR ENTRENADOR\n"
-				+ "\t5- MOSTRAR JUGADORES Y ENTRENADOR DE UN EQUIPO\n"
-				+ "\t6- BÚSQUEDA");
+				+ "\t5- BÚSQUEDA");
 		
 		opcion = InputScannerImpl.inputTeclado.entradaDeEntero();
 		
@@ -47,7 +47,6 @@ public class MenuServiceImpl implements MenuInterface{
 			System.out.println("Ingrese Nombre del Equipo: ");
 			String nombreEquipo = InputScannerImpl.inputTeclado.entradaDeTexto();
 			EquipoServiceImpl.equipoService.agregarJugadores(MapeoServiceImpl.equipoMap.get(nombreEquipo));
-			
 			Retornar.volverAlMenu();
 			break;
 		case 4:
@@ -57,13 +56,6 @@ public class MenuServiceImpl implements MenuInterface{
 			Retornar.volverAlMenu();
 			break;
 		case 5:
-			System.out.println("Ingrese Nombre del Equipo: ");
-			String nombreEquipo3 = InputScannerImpl.inputTeclado.entradaDeTexto();
-			EquipoServiceImpl.equipoService.mostrarJugadores(MapeoServiceImpl.equipoMap.get(nombreEquipo3));
-			EquipoServiceImpl.equipoService.mostrarEntrenador(MapeoServiceImpl.equipoMap.get(nombreEquipo3));
-			Retornar.volverAlMenu();
-			break;
-		case 6:
 			menuDeBusqueda();
 			break;
 		}
@@ -91,7 +83,9 @@ public class MenuServiceImpl implements MenuInterface{
 			Retornar.volverAlMenu();
 			break;
 		case 2:
-			System.out.println("acá va la búsqueda de equipos.");
+			System.out.println("Ingrese Nombre del Equipo: ");
+			String nombreEquipo4 = InputScannerImpl.inputTeclado.entradaDeTexto();
+			BuscarEquipoImpl.buscar.buscarPorNombre(nombreEquipo4);
 			Retornar.volverAlMenu();
 			break;
 		}
