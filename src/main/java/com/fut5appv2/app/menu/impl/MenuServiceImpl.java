@@ -5,6 +5,8 @@ import com.fut5appv2.app.menu.MenuInterface;
 import com.fut5appv2.app.menu.Retornar;
 import com.fut5appv2.app.service.busqueda.impl.BuscarEquipoImpl;
 import com.fut5appv2.app.service.busqueda.impl.BuscarJugadorImpl;
+import com.fut5appv2.app.service.eliminacion.EliminarInterface;
+import com.fut5appv2.app.service.eliminacion.impl.EliminarImpl;
 import com.fut5appv2.app.service.equipo.impl.EquipoServiceImpl;
 import com.fut5appv2.app.service.execution.impl.EjecucionImpl;
 import com.fut5appv2.app.service.mapeo.impl.MapeoServiceImpl;
@@ -25,7 +27,8 @@ public class MenuServiceImpl implements MenuInterface{
 				+ "\t2- MOSTRAR EQUIPOS\n"
 				+ "\t3- AGREGAR JUGADORES\n"
 				+ "\t4- AGREGAR ENTRENADOR\n"
-				+ "\t5- BÚSQUEDA");
+				+ "\t5- BÚSQUEDA\n"
+				+ "\t6- ELIMINAR UN EQUIPO");
 		
 		opcion = InputScannerImpl.inputTeclado.entradaDeEntero();
 		
@@ -57,6 +60,12 @@ public class MenuServiceImpl implements MenuInterface{
 			break;
 		case 5:
 			menuDeBusqueda();
+			break;
+		case 6:
+			System.out.println("Ingrese Nombre del Equipo: ");
+			String nombreEquipo3 = InputScannerImpl.inputTeclado.entradaDeTexto();
+			EliminarImpl.removerEquipo.eliminarEquipo(nombreEquipo3);
+			Retornar.volverAlMenu();
 			break;
 		}
 	}
