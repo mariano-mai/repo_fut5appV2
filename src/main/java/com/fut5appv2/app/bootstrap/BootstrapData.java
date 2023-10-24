@@ -81,6 +81,7 @@ public class BootstrapData implements Constantes{
 	private void setearLista(Equipo equipo) {
 		for(Jugador jugador : equipo.getListaDeJugadores()) {
 			crearJugadorV2(jugador);
+			MapeoServiceImpl.mapeoService.mapeoDeJugadores(jugador);
 		}
 		equipo.getListaDeJugadores().get(getRandomNumber(0, 4)).setCapitania(true);
 		equipo.getListaDeJugadores().get(getRandomNumber(0, 4)).setPosicion("Arquero");

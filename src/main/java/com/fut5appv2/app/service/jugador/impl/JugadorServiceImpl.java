@@ -7,6 +7,7 @@ import com.fut5appv2.app.domain.Jugador;
 import com.fut5appv2.app.inputOutput.impl.InputScannerImpl;
 import com.fut5appv2.app.service.equipo.impl.EquipoServiceImpl;
 import com.fut5appv2.app.service.jugador.JugadorService;
+import com.fut5appv2.app.service.mapeo.impl.MapeoServiceImpl;
 
 public class JugadorServiceImpl implements JugadorService{
 	
@@ -35,6 +36,7 @@ public class JugadorServiceImpl implements JugadorService{
 		jugador.setApellido(InputScannerImpl.inputTeclado.entradaDeTexto());
 		darPosicion(jugador);
 		//informacionNumerica(jugador);
+		MapeoServiceImpl.mapeoService.mapeoDeJugadores(jugador);
 		return jugador;
 	}
 	

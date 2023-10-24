@@ -18,5 +18,9 @@ public class Retornar {
 			break;
 		}
 	}
+	
+	public static void volverAlMenuV2() {
+		MenuServiceImpl.menuOpciones.menuDeOpciones();
+	}
 
 }
