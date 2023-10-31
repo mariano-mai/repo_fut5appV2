@@ -48,6 +48,7 @@ public class JugadorServiceImpl implements JugadorService{
 		jugador.setApellido(InputScannerImpl.inputTeclado.entradaDeTexto());
 		darPosicion(jugador);
 		informacionNumerica(jugador);
+		MapeoServiceImpl.mapeoService.mapeoDeJugadores(jugador);
 	}
 	
 	private void darPosicion(Jugador jugador) {

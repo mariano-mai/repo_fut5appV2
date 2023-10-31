@@ -1,50 +1,60 @@
-Miguel;PRIETO;Mediocampista;161;3;9;8;;Anguilas
-Jorge;GUTIERREZ;Defensor;164;11;2;7;;Estrellas
-Álex;HERNANDEZ;Arquero;165;7;3;3;;Estrellas
-Dylan;GIMENEZ;Mediocampista;161;0;23;3;;Langostas
-Amir;CRUZ;Mediocampista;160;1;10;1;;Cangrejos
-Gael;SERRANO;Arquero;169;8;19;2;;Langostas
-Alberto;HERNANDEZ;Mediocampista;162;7;17;9;;Ballenas
-Ian;HIDALGO;Defensor;160;9;10;5;;Cangrejos
-Marc;SANTANA;Mediocampista;161;6;6;9;;Pulpos
-Nicolás;RUBIO;Mediocampista;162;2;8;1;capitán;Pulpos
-Gael;MORALES;Mediocampista;162;3;15;9;;Focas
-Andrés;CANO;Mediocampista;160;0;18;7;;Focas
-Luca;MARIN;Arquero;163;4;24;3;capitán;Cangrejos
-Guillermo;CRUZ;Arquero;162;10;15;7;capitán;Caballitos de Mar
-Amir;DOMINGUEZ;Mediocampista;169;3;4;4;;Delfines
-Pau;SANZ;Arquero;161;13;22;2;;Ballenas
-Luca;LOZANO;Defensor;160;5;20;9;;Caballitos de Mar
-Amir;GIMENEZ;Mediocampista;163;14;16;1;;Caballitos de Mar
-Oliver;CALVO;Defensor;168;0;4;6;;Estrellas
-Ian;SERRANO;Mediocampista;164;6;10;7;;Calamares
-Pau;MARIN;Mediocampista;168;14;18;1;capitán;Estrellas
-Álvaro;VIDAL;Mediocampista;160;0;9;9;;Pulpos
-Alejandro;HIDALGO;Defensor;165;10;24;8;capitán;Delfines
-Gabriel;SANCHEZ;Mediocampista;163;10;16;2;;Ballenas
-Iván;CARRASCO;Defensor;161;8;19;5;;Cangrejos
-Oliver;SUAREZ;Defensor;169;2;3;2;;Langostas
-José;SERRANO;Arquero;165;12;11;4;;Delfines
-José;MARQUEZ;Arquero;161;9;12;7;;Pulpos
-Aitor;GIMENEZ;Defensor;161;7;5;3;;Focas
-Izan;NAVARRO;Arquero;160;14;23;8;;Focas
-Mohamed;GUTIERREZ;Mediocampista;163;0;5;9;;Langostas
-Sergio;GARRIDO;Mediocampista;168;9;10;8;;Pulpos
-Nil;ALONSO;Mediocampista;169;10;11;2;;Cangrejos
-Enzo;SANTANA;Defensor;168;11;23;3;;Estrellas
-Marc;CANO;Mediocampista;162;4;3;2;;Delfines
-Julen;TORRES;Mediocampista;166;7;19;7;capitán;Langostas
-Oliver;RODRIGUEZ;Defensor;163;0;17;9;;Ballenas
-Julen;MARIN;Mediocampista;161;12;3;5;;Delfines
-Bruno;RAMIREZ;Defensor;167;9;19;4;;Caballitos de Mar
-Carlos;BLANCO;Mediocampista;169;3;6;3;;Calamares
-Carlos;VARGAS;Arquero;167;4;14;7;;Anguilas
-Gabriel;RUBIO;Mediocampista;162;4;7;4;;Anguilas
-Sergio;DOMINGUEZ;Arquero;164;8;10;8;;Calamares
-Jorge;SERRANO;Defensor;160;9;22;3;;Anguilas
-Marcos;LEON;Defensor;162;10;23;1;;Caballitos de Mar
-Francisco;RAMOS;Mediocampista;164;2;6;9;;Calamares
-Mohamed;VARGAS;Defensor;166;4;19;5;capitán;Calamares
-Samuel;DIEZ;Defensor;167;12;6;4;capitán;Anguilas
-Gabriel;MARQUEZ;Mediocampista;160;13;12;6;capitán;Focas
-Luis;MENDEZ;Mediocampista;169;12;20;2;capitán;Ballenas
+Nil;LORENZO;Mediocampista;162;7;9;6;;Caballitos de Mar
+Eric;VIDAL;Mediocampista;165;3;17;8;;Estrellas
+Jorge;CRUZ;Mediocampista;166;5;23;2;;Pulpos
+Leandro;Zacaríaz;Delantero;177;3;6;9;;Perros
+Rodrigo;HERNANDEZ;Mediocampista;160;11;8;2;;Delfines
+Alonso;PRIETO;Defensor;167;6;15;1;;Delfines
+Martín;SANCHEZ;Mediocampista;160;5;22;9;;Langostas
+David;MEDINA;Mediocampista;169;6;11;2;;Caballitos de Mar
+Nicolás;GARRIDO;Arquero;162;1;10;9;;Calamares
+Francisco;Maidana;Mediocampista;177;5;6;3;capitán;Osos
+David;Orué;Defensor;159;4;6;1;;Perros
+Jaime;GONZALEZ;Arquero;168;14;14;6;;Ballenas
+Samuel;SANCHEZ;Mediocampista;163;14;18;2;;Estrellas
+Marco;MARIN;Defensor;166;4;15;8;capitán;Anguilas
+Rubén;FERNANDEZ;Mediocampista;162;7;11;3;;Langostas
+Adam;PEREZ;Defensor;161;11;6;2;;Cangrejos
+Bruno;ROMERO;Arquero;168;7;15;4;;Estrellas
+Unai;VIDAL;Arquero;160;5;0;4;capitán;Delfines
+Mariano;Maidana;Arquero;178;0;6;1;;Osos
+Samuel;HERRERO;Defensor;169;7;12;4;;Cangrejos
+Julen;MENDEZ;Arquero;160;2;23;7;capitán;Pulpos
+Germán;Torres;Mediocampista;168;4;6;7;;Perros
+Santiago;VAZQUEZ;Mediocampista;169;14;21;4;capitán;Estrellas
+Noah;PRIETO;Arquero;163;8;4;6;;Anguilas
+Edgardo;Gonzalez;Defensor;177;2;6;3;;Perros
+Gael;PEÑA;Arquero;167;2;13;4;;Cangrejos
+Luca;HIDALGO;Defensor;168;13;11;1;capitán;Cangrejos
+Javier;HIDALGO;Mediocampista;160;9;22;5;;Pulpos
+David;ROMERO;Mediocampista;165;8;8;1;;Ballenas
+Hugo;FUENTES;Mediocampista;165;12;11;1;;Caballitos de Mar
+Martín;SANTOS;Defensor;162;5;6;6;;Caballitos de Mar
+Jorge;GONZALEZ;Mediocampista;168;14;22;6;;Anguilas
+Francisco;CANO;Defensor;164;3;6;8;;Focas
+Izan;SANCHEZ;Arquero;165;3;21;3;;Focas
+David;SUAREZ;Defensor;161;14;23;3;;Calamares
+Agustín;Maidana;Defensor;177;3;6;2;;Osos
+Ian;MARQUEZ;Mediocampista;165;2;7;1;;Focas
+Martín;Maidana;Mediocampista;168;2;6;5;;Osos
+David;PASCUAL;Mediocampista;161;6;4;5;;Focas
+Saúl;CALVO;Defensor;167;0;1;1;capitán;Langostas
+Juan;CABRERA;Mediocampista;167;13;4;9;capitán;Calamares
+Oliver;DIAZ;Mediocampista;165;10;4;7;;Anguilas
+Iván;GARRIDO;Defensor;167;12;1;8;capitán;Ballenas
+Andrés;PEÑA;Defensor;163;2;24;5;capitán;Focas
+Nil;FUENTES;Defensor;161;5;12;9;;Anguilas
+Carlos;RAMOS;Mediocampista;162;11;22;7;;Delfines
+Íker;RUBIO;Defensor;160;0;23;1;;Pulpos
+Martín;GONZALEZ;Mediocampista;168;7;24;4;;Calamares
+Aitor;GONZALEZ;Defensor;162;13;12;9;;Langostas
+Adrián;MORALES;Arquero;162;4;24;5;capitán;Caballitos de Mar
+Joel;HERRERA;Mediocampista;165;7;3;6;;Delfines
+Noah;CABRERA;Mediocampista;168;5;17;3;;Estrellas
+Francisco;Blanco;Arquero;160;1;6;2;capitán;Perros
+Álex;CORTES;Mediocampista;163;14;5;7;;Pulpos
+Fabricio;Maidana;Delantero;90;5;6;10;;Osos
+Enzo;MARTINEZ;Defensor;162;13;7;6;;Calamares
+Pablo;LOPEZ;Arquero;162;1;20;1;;Langostas
+Pablo;RAMOS;Defensor;169;11;13;6;;Ballenas
+Álex;ORTIZ;Mediocampista;168;10;21;5;;Cangrejos
+Joel;MOLINA;Defensor;161;10;9;3;;Ballenas

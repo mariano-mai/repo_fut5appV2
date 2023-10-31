@@ -1,11 +1,12 @@
-Delfines;16;11;1994;Antonio;CORTES;69
-Langostas;18;11;1982;Rayan;RUBIO;63
-Focas;9;7;1993;Jorge;PRIETO;46
-Cangrejos;11;5;1983;Lucas;SANTIAGO;69
-Calamares;13;8;1986;Íker;GARRIDO;45
-Pulpos;12;3;1996;Gonzalo;VEGA;69
-Ballenas;7;3;1989;Sergio;DIEZ;59
-Estrellas;17;3;1992;Eric;CORTES;66
+Delfines;16;2;1985;Eric;LORENZO;53
+Langostas;5;3;2010;Pau;FUENTES;49
+Perros;2;2;2000;Francisco;Cabrera;35
+Focas;6;9;2010;Aitor;PASCUAL;56
+Cangrejos;29;4;1981;Gael;SANTANA;68
+Calamares;16;8;1992;Gael;CAMPOS;57
+Pulpos;20;8;1994;Nil;REYES;62
+Ballenas;7;11;1995;Gonzalo;DIAZ;57
+Estrellas;26;6;2018;Ángel;SANCHEZ;59
 Osos;23;10;2022;Ernesto;Maidana;65
-Caballitos de Mar;17;3;1988;Mateo;GOMEZ;61
-Anguilas;23;2;2004;Adam;CARRASCO;61
+Caballitos de Mar;15;6;1988;Aarón;DIEZ;52
+Anguilas;13;2;1992;Martí;HIDALGO;66
