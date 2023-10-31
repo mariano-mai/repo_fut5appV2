@@ -1,0 +1,11 @@
+Delfines;16;11;1994;Antonio;CORTES;69
+Langostas;18;11;1982;Rayan;RUBIO;63
+Focas;9;7;1993;Jorge;PRIETO;46
+Cangrejos;11;5;1983;Lucas;SANTIAGO;69
+Calamares;13;8;1986;Íker;GARRIDO;45
+Pulpos;12;3;1996;Gonzalo;VEGA;69
+Ballenas;7;3;1989;Sergio;DIEZ;59
+Estrellas;17;3;1992;Eric;CORTES;66
+Osos;23;10;2022;Ernesto;Maidana;65
+Caballitos de Mar;17;3;1988;Mateo;GOMEZ;61
+Anguilas;23;2;2004;Adam;CARRASCO;61

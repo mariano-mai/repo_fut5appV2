@@ -1,11 +1,13 @@
 package com.fut5appv2.app.menu.impl;
 
+import java.io.File;
+
 import com.fut5appv2.app.inputOutput.impl.InputScannerImpl;
+import com.fut5appv2.app.inputOutput.impl.SalidaPorArchivoImpl;
 import com.fut5appv2.app.menu.MenuInterface;
 import com.fut5appv2.app.menu.Retornar;
 import com.fut5appv2.app.service.busqueda.impl.BuscarEquipoImpl;
 import com.fut5appv2.app.service.busqueda.impl.BuscarJugadorImpl;
-import com.fut5appv2.app.service.eliminacion.EliminarInterface;
 import com.fut5appv2.app.service.eliminacion.impl.EliminarImpl;
 import com.fut5appv2.app.service.equipo.impl.EquipoServiceImpl;
 import com.fut5appv2.app.service.execution.impl.EjecucionImpl;
@@ -28,7 +30,8 @@ public class MenuServiceImpl implements MenuInterface{
 				+ "\t3- AGREGAR JUGADORES\n"
 				+ "\t4- AGREGAR ENTRENADOR\n"
 				+ "\t5- BÚSQUEDA\n"
-				+ "\t6- ELIMINAR UN EQUIPO");
+				+ "\t6- ELIMINAR UN EQUIPO\n"
+				+ "\t7- GUARDAR EN ARCHIVO");
 		
 		opcion = InputScannerImpl.inputTeclado.entradaDeEntero();
 		
@@ -65,6 +68,13 @@ public class MenuServiceImpl implements MenuInterface{
 			System.out.println("Ingrese Nombre del Equipo: ");
 			String nombreEquipo3 = InputScannerImpl.inputTeclado.entradaDeTexto();
 			EliminarImpl.removerEquipo.eliminarEquipo(nombreEquipo3);
+			Retornar.volverAlMenu();
+			break;
+		case 7:
+			File rutaEquipos = new File("src/main/java/com/fut5appv2/app/resources/Equipos.txt");
+			File rutaJugadores = new File("src/main/java/com/fut5appv2/app/resources/Jugadores.txt");
+			SalidaPorArchivoImpl.salidaArchivo.listaDeEquipos(rutaEquipos);
+			SalidaPorArchivoImpl.salidaArchivo.listaDeJugadores(rutaJugadores);
 			Retornar.volverAlMenu();
 			break;
 		}

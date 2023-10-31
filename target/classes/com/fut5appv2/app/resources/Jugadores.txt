@@ -1,0 +1,50 @@
+Miguel;PRIETO;Mediocampista;161;3;9;8;;Anguilas
+Jorge;GUTIERREZ;Defensor;164;11;2;7;;Estrellas
+Álex;HERNANDEZ;Arquero;165;7;3;3;;Estrellas
+Dylan;GIMENEZ;Mediocampista;161;0;23;3;;Langostas
+Amir;CRUZ;Mediocampista;160;1;10;1;;Cangrejos
+Gael;SERRANO;Arquero;169;8;19;2;;Langostas
+Alberto;HERNANDEZ;Mediocampista;162;7;17;9;;Ballenas
+Ian;HIDALGO;Defensor;160;9;10;5;;Cangrejos
+Marc;SANTANA;Mediocampista;161;6;6;9;;Pulpos
+Nicolás;RUBIO;Mediocampista;162;2;8;1;capitán;Pulpos
+Gael;MORALES;Mediocampista;162;3;15;9;;Focas
+Andrés;CANO;Mediocampista;160;0;18;7;;Focas
+Luca;MARIN;Arquero;163;4;24;3;capitán;Cangrejos
+Guillermo;CRUZ;Arquero;162;10;15;7;capitán;Caballitos de Mar
+Amir;DOMINGUEZ;Mediocampista;169;3;4;4;;Delfines
+Pau;SANZ;Arquero;161;13;22;2;;Ballenas
+Luca;LOZANO;Defensor;160;5;20;9;;Caballitos de Mar
+Amir;GIMENEZ;Mediocampista;163;14;16;1;;Caballitos de Mar
+Oliver;CALVO;Defensor;168;0;4;6;;Estrellas
+Ian;SERRANO;Mediocampista;164;6;10;7;;Calamares
+Pau;MARIN;Mediocampista;168;14;18;1;capitán;Estrellas
+Álvaro;VIDAL;Mediocampista;160;0;9;9;;Pulpos
+Alejandro;HIDALGO;Defensor;165;10;24;8;capitán;Delfines
+Gabriel;SANCHEZ;Mediocampista;163;10;16;2;;Ballenas
+Iván;CARRASCO;Defensor;161;8;19;5;;Cangrejos
+Oliver;SUAREZ;Defensor;169;2;3;2;;Langostas
+José;SERRANO;Arquero;165;12;11;4;;Delfines
+José;MARQUEZ;Arquero;161;9;12;7;;Pulpos
+Aitor;GIMENEZ;Defensor;161;7;5;3;;Focas
+Izan;NAVARRO;Arquero;160;14;23;8;;Focas
+Mohamed;GUTIERREZ;Mediocampista;163;0;5;9;;Langostas
+Sergio;GARRIDO;Mediocampista;168;9;10;8;;Pulpos
+Nil;ALONSO;Mediocampista;169;10;11;2;;Cangrejos
+Enzo;SANTANA;Defensor;168;11;23;3;;Estrellas
+Marc;CANO;Mediocampista;162;4;3;2;;Delfines
+Julen;TORRES;Mediocampista;166;7;19;7;capitán;Langostas
+Oliver;RODRIGUEZ;Defensor;163;0;17;9;;Ballenas
+Julen;MARIN;Mediocampista;161;12;3;5;;Delfines
+Bruno;RAMIREZ;Defensor;167;9;19;4;;Caballitos de Mar
+Carlos;BLANCO;Mediocampista;169;3;6;3;;Calamares
+Carlos;VARGAS;Arquero;167;4;14;7;;Anguilas
+Gabriel;RUBIO;Mediocampista;162;4;7;4;;Anguilas
+Sergio;DOMINGUEZ;Arquero;164;8;10;8;;Calamares
+Jorge;SERRANO;Defensor;160;9;22;3;;Anguilas
+Marcos;LEON;Defensor;162;10;23;1;;Caballitos de Mar
+Francisco;RAMOS;Mediocampista;164;2;6;9;;Calamares
+Mohamed;VARGAS;Defensor;166;4;19;5;capitán;Calamares
+Samuel;DIEZ;Defensor;167;12;6;4;capitán;Anguilas
+Gabriel;MARQUEZ;Mediocampista;160;13;12;6;capitán;Focas
+Luis;MENDEZ;Mediocampista;169;12;20;2;capitán;Ballenas

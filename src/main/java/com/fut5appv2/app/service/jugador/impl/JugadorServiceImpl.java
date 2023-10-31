@@ -47,7 +47,7 @@ public class JugadorServiceImpl implements JugadorService{
 		System.out.println("Ingrese apellido del Jugador: ");
 		jugador.setApellido(InputScannerImpl.inputTeclado.entradaDeTexto());
 		darPosicion(jugador);
-		//informacionNumerica(jugador);
+		informacionNumerica(jugador);
 	}
 	
 	private void darPosicion(Jugador jugador) {
