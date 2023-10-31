@@ -1,14 +1,12 @@
 package com.fut5appv2.app.inputOutput;
 
-import java.util.List;
-
-import com.fut5appv2.app.domain.Equipo;
-import com.fut5appv2.app.domain.Jugador;
-
 public interface ArchivosInterface {
 	
-	List<Equipo> cargarEquipoDesdeArchivo(String rutaArchivo);
+	static final String RUTAEQUIPOS = "src/main/java/com/fut5appv2/app/resources/Equipos.txt";
+	static final String RUTAJUGADORES = "src/main/java/com/fut5appv2/app/resources/Jugadores.txt";
 	
-	List<Jugador> cargarJugadorDesdeArchivo(Equipo equipo);
+	void cargarEquipoDesdeArchivo(String rutaArchivo);
+	
+	void cargarJugadorDesdeArchivo();
 
 }
