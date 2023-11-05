@@ -3,6 +3,7 @@ package com.fut5appv2.app.service.equipo.impl;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.UUID;
 
 import com.fut5appv2.app.domain.Entrenador;
 import com.fut5appv2.app.domain.Equipo;
@@ -26,29 +27,21 @@ public class EquipoServiceImpl implements EquipoService{
 	public static List<Jugador> listaDeJugadores;
 
 	@Override
-	public Equipo crearEquipoV1(String nombre) {
-		newEquipo = new Equipo(nombre);
-		return newEquipo;
-	}
-
-	@Override
 	public void agregarJugadores(Equipo equipo) {
 		equipo.setListaDeJugadores(generadorDeLista(equipo));
 		setteadorDeLista(listaDeJugadores);
 	}
-
+	
 	@Override
 	public void agregarEntrenador(Equipo equipo) {
-		newEntrenador = EntrenadorServiceImpl.entrenadorService.crearEntrenador();
-		equipo.setEntrenador(newEntrenador);
+		equipo.setEntrenador(EntrenadorServiceImpl.entrenadorService.crearEntrenador());
 	}
 	
 	private List<Jugador> generadorDeLista(Equipo equipo){
 		listaDeJugadores = new ArrayList<>();
-		System.out.println("Ingrese cantidad de Jugadores: ");
-		int cantidad = InputScannerImpl.inputTeclado.entradaDeEntero();
-		for(int i=0; i<cantidad; i++) {
+		for(int i=0; i<5; i++) {
 			newJugador = new Jugador(equipo);
+			newJugador.setId(UUID.randomUUID());
 			listaDeJugadores.add(newJugador);
 		}
 		return listaDeJugadores;
@@ -60,7 +53,7 @@ public class EquipoServiceImpl implements EquipoService{
 		}
 		JugadorServiceImpl.esCapitan();
 	}
-
+	
 	@Override
 	public void mostrarJugadores(Equipo equipo) {
 		System.out.println("Jugadores: ");
@@ -68,19 +61,19 @@ public class EquipoServiceImpl implements EquipoService{
 			System.out.println("- "+jugador.getApellido()+", "+jugador.getNombre()+((jugador.isCapitania())?"(C)":"")+" - "+jugador.getPosicion());
 		}
 	}
-
+	
 	@Override
 	public void mostrarEntrenador(Equipo equipo) {
 		System.out.println("Entrenador: "+equipo.getEntrenador().getApellido()+", "+equipo.getEntrenador().getNombre());
 	}
-
+	
 	@Override
 	public Equipo crearEquipo(String nombre) {
 		newEquipo = new Equipo(nombre);
 		newEquipo.setFechaCreacion(fechaDeCreacion());
 		return newEquipo;
 	}
-
+	
 	@Override
 	public void mostrarEquipos() {
 		if(MapeoServiceImpl.equipoMap.isEmpty()) {
@@ -111,6 +104,11 @@ public class EquipoServiceImpl implements EquipoService{
 			equipo.getFechaCreacion().get(Calendar.MONTH)+"/"+
 			equipo.getFechaCreacion().get(Calendar.YEAR);
 		return fecha;
+	}
+	
+	public static Equipo crearEquipoV1(String nombre) {
+		newEquipo = new Equipo(nombre);
+		return newEquipo;
 	}
 
 }

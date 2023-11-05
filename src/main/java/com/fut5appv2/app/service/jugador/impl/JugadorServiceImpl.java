@@ -1,8 +1,5 @@
 package com.fut5appv2.app.service.jugador.impl;
 
-import java.util.UUID;
-
-import com.fut5appv2.app.domain.Equipo;
 import com.fut5appv2.app.domain.Jugador;
 import com.fut5appv2.app.inputOutput.impl.InputScannerImpl;
 import com.fut5appv2.app.service.equipo.impl.EquipoServiceImpl;
@@ -15,31 +12,7 @@ public class JugadorServiceImpl implements JugadorService{
 	
 	static Jugador jugador;
 
-	@Override
-	public Jugador crearJugador() {
-		jugador = new Jugador();
-		jugador.setId(UUID.randomUUID());
-		System.out.println("Ingrese nombre del Jugador: ");
-		jugador.setNombre(InputScannerImpl.inputTeclado.entradaDeTexto());
-		System.out.println("Ingrese apellido del Jugador: ");
-		jugador.setApellido(InputScannerImpl.inputTeclado.entradaDeTexto());
-		return jugador;
-	}
-
-	@Override
-	public Jugador crearJugadorV2(Equipo equipo) {
-		jugador = new Jugador(equipo);
-		jugador.setId(UUID.randomUUID());
-		System.out.println("Ingrese nombre del Jugador: ");
-		jugador.setNombre(InputScannerImpl.inputTeclado.entradaDeTexto());
-		System.out.println("Ingrese apellido del Jugador: ");
-		jugador.setApellido(InputScannerImpl.inputTeclado.entradaDeTexto());
-		darPosicion(jugador);
-		//informacionNumerica(jugador);
-		MapeoServiceImpl.mapeoService.mapeoDeJugadores(jugador);
-		return jugador;
-	}
-	
+	//setearJugador() - en uso
 	@Override
 	public void setearJugador(Jugador jugador) {
 		System.out.println("Ingrese nombre del Jugador: ");

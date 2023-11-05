@@ -4,8 +4,6 @@ import com.fut5appv2.app.domain.Equipo;
 
 public interface EquipoService {
 	
-	Equipo crearEquipoV1(String nombre);
-	
 	Equipo crearEquipo(String nombre);
 	
 	void agregarJugadores(Equipo equipo);

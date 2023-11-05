@@ -85,7 +85,9 @@ public class MenuServiceImpl implements MenuInterface{
 		System.out.println("\t<<MENÚ DE BÚSQUEDA>>\n");
 		
 		System.out.println("Ingrese una Opción");
-		System.out.println("\t0- Volver Atrás.\n\t1- BUSCAR UN JUGADOR.\n\t2- BUSCAR UN EQUIPO.");
+		System.out.println("\t0- Volver Atrás.\n"
+				+ "\t1- BUSCAR UN JUGADOR.\n"
+				+ "\t2- BUSCAR UN EQUIPO.");
 		
 		opcion = InputScannerImpl.inputTeclado.entradaDeEntero();
 		

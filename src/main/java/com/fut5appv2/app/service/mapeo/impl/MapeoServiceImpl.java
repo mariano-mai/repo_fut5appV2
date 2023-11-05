@@ -24,7 +24,7 @@ public class MapeoServiceImpl implements MapeoService{
 	
 	@Override
 	public void BDmapeoDeEquipo(String nombre) {
-		equipoMap.put(nombre, EquipoServiceImpl.equipoService.crearEquipoV1(nombre));
+		equipoMap.put(nombre, EquipoServiceImpl.crearEquipoV1(nombre));
 	}
 
 	@Override
